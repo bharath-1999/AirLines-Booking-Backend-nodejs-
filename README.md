@@ -21,4 +21,31 @@
 }
 
 
+
 ```
+
+## DB design
+ - airplane table
+        - uniqueId
+        - model_number
+        -capacity
+        -created_at
+        -updated-at
+ - flight
+        -id
+        -src_airport_id
+        -dest_airport_id
+        -departure
+        -arrival
+        -flight_number
+        
+ - airport
+        -id
+        -name
+        -city_id
+        -address
+
+ -city
+      -id
+      -name
+
